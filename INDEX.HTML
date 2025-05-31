@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bright Minds Coaching</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bright Minds Coaching</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Your Success Starts Here</h2>
+    <p>Quality coaching for Class 8 to 12 | NEET | JEE | Olympiads</p>
+    <button onclick="enrollNow()">Enroll Now</button>
+  </section>
+
+  <section id="about">
+    <h3>About Us</h3>
+    <p>Bright Minds Coaching Institute has been nurturing academic excellence since 2010. Our expert faculty and focused teaching methods ensure top results.</p>
+  </section>
+
+  <section id="courses">
+    <h3>Courses Offered</h3>
+    <div class="course-list">
+      <div class="course-card">
+        <h4>Class 8-10 Foundation</h4>
+        <p>Maths, Science, English, SST</p>
+      </div>
+      <div class="course-card">
+        <h4>Class 11-12 PCM</h4>
+        <p>Physics, Chemistry, Maths</p>
+      </div>
+      <div class="course-card">
+        <h4>NEET Preparation</h4>
+        <p>Biology-focused coaching with test series</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact Us</h3>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Bright Minds Coaching. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+`
